@@ -20,27 +20,62 @@ body {
 }
 
 .right2  {
-    width: 40%;
+    width: 45%;
     background-color: whitesmoke;
-    border: 2px black solid;
     padding: 10px;
     margin: 10px;
 }
 
+.right22  {
+    width: 45%;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    padding-top: 50px;
+}
+
+.right22:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://slh-prod-content.azureedge.net/-/media/slh/destinations/staging/regions-cities/s/europe/italy/lake-como-italy-s-2.ashx?h=1173&w=660&usecustomfunctions=1&centercrop=1&rev=9b9462b9f72940f1ba46133456d00108&hash=2145189B89B1455CAD57131DBB5EA4F7");
+}
+
+footer {
+  display: flex;
+  font-size: 0.85em;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 5px;
+}
 .main {
     position: absolute;
+    width: 50%;
 }
+
 .main2 {
     display: flex;
     position: relative;
     flex-direction: row;
     align-items: flex-start;
+    padding-right: 30%;
+    padding-left: 10px;
+    display: inline-block;
+    background-color: whitesmoke;
+    /* padding: 10px; */
+    margin: 10px;
 }
-
 .main2:after {
     content: '';
     position: absolute;
-    width: 50%;
+    width: 30%;
     height: 100%;
     top: 0;
     right: 0;
@@ -50,14 +85,7 @@ body {
     background-image: url("https://slh-prod-content.azureedge.net/-/media/slh/destinations/staging/regions-cities/s/europe/italy/lake-como-italy-s-2.ashx?h=1173&w=660&usecustomfunctions=1&centercrop=1&rev=9b9462b9f72940f1ba46133456d00108&hash=2145189B89B1455CAD57131DBB5EA4F7");
 }
 
-.main2 {
-    width: 50%;
-    display: inline-block;
-    background-color: whitesmoke;
-    border: 2px black solid;
-    padding: 10px;
-    margin: 10px;
-}
+
 
 .second {
     display: flex;
@@ -66,23 +94,21 @@ body {
     align-items: flex-end;
     flex-wrap: wrap;
     top: 200px;
-    border: 2px solid black;
     width: 50%;
-    height: 600px;
+    height: 660px;
     
 }
 
 .second2 {
     position: relative;
     width: 50%;
-    height: 1000px;
+    height: 600px;
     background-color: whitesmoke;
-    border: 2px black solid;
-    padding: 10px;
+    padding: 40px;
     margin: 10px;
 }
 
-.text {
+.text {     
     position: absolute;
     bottom: 0;
 }
@@ -103,9 +129,8 @@ body {
 
 .second3, .second33 {
     width: 200px;
-    height: 25%;
+    height: 180px;
     background-color: whitesmoke;
-    border: 2px black solid;
     padding: 10px;
     margin: 10px;
     position: relative;
